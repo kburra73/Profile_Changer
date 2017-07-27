@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gopesh.callapp.CallActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Not detecting"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#130da7"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textViewDetectState"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Turn on"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/buttonDetectToggle"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Exit"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/buttonExit"
+        />
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="RUN IN BACKGROUNG"
+        android:layout_alignParentLeft="true"
+        android:onClick="start"/>
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        />
+
+
+
+</LinearLayout>

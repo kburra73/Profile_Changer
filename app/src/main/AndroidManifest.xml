@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gopesh.profilechanger">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.example.gopesh.profilechanger.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.gopesh.profilechanger.FirstActivity"/>
+        <activity android:name="com.example.gopesh.profilechanger.MainActivity"/>
+
+        <activity android:name="com.example.gopesh.profilechanger.alt11" >
+            <intent-filter>
+                <action android:name="com.example.zorawar.myapplication.alt11" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.gopesh.profilechanger.pro51">
+            <intent-filter>
+                <action android:name="com.example.zorawar.myapplication.pro51" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.gopesh.profilechanger.CallActivity">
+
+        </activity>
+        <activity android:name="com.example.gopesh.profilechanger.CallHelper" >
+            <intent-filter>
+                <action android:name="com.example.gopesh.CallHelper"></action>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+        <activity android:name="com.example.gopesh.profilechanger.AboutActivity"/>
+        <activity android:name="com.example.gopesh.profilechanger.HelpActivity"/>
+
+        <service android:name="com.example.gopesh.profilechanger.Service_pro"/>
+        <service android:name="com.example.gopesh.profilechanger.MyService"
+            android:exported="false">
+
+        </service>
+        <service android:name="com.example.gopesh.profilechanger.CallDetectService"
+            android:enabled="true"
+            android:exported="false"/>
+    </application>
+
+</manifest>

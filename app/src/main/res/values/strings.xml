@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Profile Changer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="inc">Inc. Alarm</string>
+    <string name="alt">Address</string>
+    <string name="sav">Save Data</string>
+    <string name="pro">Profile changer</string>
+    <string name="set">Settings</string>
+    <string name="mot">Motion Unlocker</string>
+    <string name="title_activity_sav11">sav11</string>
+    <string name="title_activity_sav12">sav12</string>
+    <string name="current">CURRENT LIMIT</string>
+    <string name="Cut">Cut off Time in Hours</string>
+    <string name="Submit">Submit</string>
+    <string name="title_activity_test">test</string>
+    <string name="currentX">Current X</string>
+    <string name="currentY">Current Y</string>
+    <string name="currentZ">Current Z</string>
+    <string name="maxX">Maximum X</string>
+    <string name="maxY">Maximum Y</string>
+    <string name="maxZ">Maximum Z</string>
+    <string name="test">TEST</string>
+    <string name="hello">HELLO</string>
+    <string name="newlimit">New Cut off Limit</string>
+    <string name="large">Large Text</string>
+    <string name="current_time">Current time</string>
+    <string name="Status">On</string>
+    <string name="lat">Address will appear here !</string>
+    <string name="get_alt">Get It On Map</string>
+    <string name="get_loc">Get Location</string>
+    <string name="title_activity_but_alarm11">My Application</string>
+    <string name="newangle">Enter the New Angle</string>
+    <string name="title_activity_but_alarm12">My Application</string>
+    <string name="alarm">Current Inclination </string>
+    <string name="title_activity_alert_alarm">Alert</string>
+    <string name="help">1. SenseApp\nThis part is used for make phone silent. This works when any one calling and your phone is on Ringing Mode then you can Silent your phone with only touch anywhere on the phone. This uses Rotation Sensor for Silence.\n\n\n
+        2. Call Profile Changer\nThe Call Profile Changer is used to change the mode from Silent to Ringing when calling through a particular number. The number is first store in text-box.
+    </string>
+    <string name="about">MADE BY\n\nKRISHNA BURRA\nGOPESH DUBEY</string>
+
+</resources>
